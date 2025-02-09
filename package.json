@@ -1,0 +1,25 @@
+{
+  "name": "solana-copytrading-bot",
+  "version": "1.0.0",
+  "description": "CLI-based Solana Copy Trading Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.73.3",
+    "readline": "^1.3.0",
+    "fs": "^0.0.1-security",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
